@@ -1,2 +1,2 @@
-var name = prompt("What is your name: ");
-document.getElementById('userInputMessage').innerText = "Nice to meet you " + name + ".";
+var name = prompt("What is your name: ");   //Creates a prompt on the window page asking for the user's name
+document.getElementById('userInputMessage').innerText = "Nice to meet you " + name + ".";   //Adds the message to the p tag with the user input
